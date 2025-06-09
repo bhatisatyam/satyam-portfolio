@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+      <h1>🚀 MyPortfolio</h1>
+    </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<section id="profile-pic" class="profile-section">
+  <h2>My Profile</h2>
+  <div class="profile-image">
+    <img src="images/about.jpeg" alt="Satyam Bhati">
+  </div>
+</section>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Hello, I'm <span class="highlight">Satyam</span></h2>
+      <p class="subtitle">I'm front-end developer passionate about creating responsive and interactive websites. I enjoy coding, traveling, and adventure.</p>
+      <a href="resume.pdf" class="btn">Download CV</a>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>
+        <ul>
+            <li>Passionate about front-end web development</li>
+            <li>Proficient in <strong>C, C++, HTML, CSS, JavaScript, Python</strong></li>
+            <li>Currently persuing <strong>MCA</strong> from Manipal University, Jaipur</li>
+            <li>Focused on building responsive and interactive websites</li>
+            <li>Good team player, Quick learner, Creative thinker</li>
+
+        </ul>
+    </p>
+  </section>
+
+  <section id="projects" class="projects container">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>🌐 Portfolio Site</h3>
+        <p>A modern portfolio to showcase my skills and experience.</p>
+      </div>
+      <div class="project-card">
+        <h3>🛒 Online Mart Site</h3>
+        <p>Mart website for online orders using Wix and PayPal</p>
+      </div>
+      <div class="project-card">
+        <h3>🤖 Robot</h3>
+        <p>Arduino and Sensor based Line follower robot.</p>
+      </div>
+    </div>
+  </section>
+
+<form action="submit-form.php" method="POST">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
+
+  <section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  <p>Have a project or question? I’d love to hear from you.</p>
+  
+  <div class="contact-info">
+    <p><strong>Email:</strong> <a href="mailto:satyambhati010@gmail.com">satyambhati010@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+918171474571">+91 8171474571</a></p>
+  </div>
+
+  <div class="social-links">
+    <a href="https://www.instagram.com/bhatisatyam_" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/bhatisatyam" target="_blank">LinkedIn</a>
+    <a href="https://github.com/bhatisatyam" target="_blank">GitHub</a>
+  </div><br> 
+</section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Satyam. Built with HTML & CSS 💻</p>
+    </div>
+  </footer>
+
+</body>
+</html>
